@@ -1,3 +1,7 @@
+
+"""nombre=input("Ingrese su nombre: ")
+print(f"Decime {nombre}¿Qué paso con todo el código?")"""
+
 from collections import Counter
 
 def crear_cliente():
@@ -16,3 +20,4 @@ print(x) """
 
 cli=crear_cliente()
 print(cli)
+
