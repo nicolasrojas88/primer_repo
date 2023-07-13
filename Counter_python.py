@@ -8,6 +8,7 @@ def crear_cliente():
     cliente={}
     cliente['nombre']=input("Ingrese su nombre: ")
     cliente['apellido']=input("Ingrese su apellido: ")
+    cliente['domicilio']=input("Ingrese su domiclio: ")
     return cliente
 
 
