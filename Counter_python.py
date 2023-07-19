@@ -11,7 +11,8 @@ def crear_cliente():
     cliente['domicilio']=input("Ingrese su domiclio: ")
     return cliente
 
-
+def mostrar_clientes(cliente):
+    return f"{cliente['nombre']} {cliente['apellido']} {cliente['domicilio']}"
 #Estamos probando el paquete de modulos de Counter
 """myList=[1,1,2,3,4,5,3,2,3,4,1,2,3]
 print(Counter(myList)) 
@@ -20,5 +21,5 @@ x=input().split(" ")
 print(x) """
 
 cli=crear_cliente()
-print(cli)
+print(mostrar_clientes (cli))
 
